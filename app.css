@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Umbrella';
+  src: url("fonts/UmbrellaRegullar.eot") format("eot"),
+  url("fonts/UmbrellaRegullar.woff") format("woff"),
+  url("fonts/UmbrellaRegullar.svg") format("svg"),
+  url("fonts/UmbrellaRegullar.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Helena';
+  src: url("fonts/Helena.otf") format("otf"),
+  url("fonts/Helena.woff") format("woff"),
+  url("fonts/Helena.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Provence';
+  src: url("fonts/Provence.otf") format("otf"),
+  url("fonts/Provence.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'story';
+  src: url("fonts/story.otf") format("otf"),
+  url("fonts/story.woff") format("woff");
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Umbrella', sans-serif;
+  background-color: #3FC1C9;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+p {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Provence', sans-serif;
+}
+
+.gift-categories {
+  list-style: none;
+  color: #FEE785;
+  text-align: center;
+  font-family: 'Provence', sans-serif;
+  font-size: 24px;
+
+}
